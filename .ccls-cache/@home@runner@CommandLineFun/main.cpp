@@ -11,6 +11,8 @@ int main() {
         if (game == "hello") {
           helloWorld();
         }
+
+        if (game == "")
     }
     
 }

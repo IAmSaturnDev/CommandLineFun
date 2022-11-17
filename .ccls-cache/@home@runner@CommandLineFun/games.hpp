@@ -5,10 +5,10 @@
 using namespace std;
 
 void randomNumGame() {
-    // Not done
+    
     
 }
 
 void helloWorld() {
-  cout << "Hello world!";
+  cout << "Hello world!\n";
 }
