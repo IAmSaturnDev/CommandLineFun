@@ -3,6 +3,11 @@
 
 using namespace std;
 
+void games() {
+  cout << "Games: hello, random, yeetfuel, friend, exit" << endl;
+}
+
+
 int main() {
     string game;
     while (true) {
@@ -22,6 +27,13 @@ int main() {
 
         if (game == "friend") {
           buddy();
+        }
+
+        if (game == "exit") {
+          break;
+        }
+        if (game == "games") {
+          games();
         }
     }
     
