@@ -30,11 +30,23 @@ void helloWorld() {
 
 void buddy() {
   string name;
-
+  string answer;
   cout << "Hello whats your name? "; cin >> name;
   cout << "Hello, " << name << "!\n";
 
   while (true) {
     cout << "I AM YOUR FRIEND AND YOU WILL BE MY FRIEND OR ELSE.\n\n";
+    cout << "DO YOU AGREE (y/n) "; cin >> buddy;
+
+    if (answer == "y") {
+      cout << "Yay!!\n";
+      break;
+    }
+
+    if (answer == "n") {
+      while (true) {
+        cout << "BIG MISTAKE\n\n";
+      }
+    }
   }
 }
