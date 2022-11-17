@@ -27,3 +27,14 @@ void randomNumGame() {
 void helloWorld() {
   cout << "Hello world!\n";
 }
+
+void buddy() {
+  string name;
+
+  cout << "Hello whats your name? "; cin >> name;
+  cout << "Hello, " << name << "!\n";
+
+  while (true) {
+    cout << "I AM YOUR FRIEND AND YOU WILL BE MY FRIEND OR ELSE.\n\n";
+  }
+}

@@ -15,6 +15,14 @@ int main() {
         if (game == "random") {
           randomNumGame();
         }
+
+        if (game == "yeetfuel") {
+          cout << "Yeetfuel!\n";
+        }
+
+        if (game == "friend") {
+          buddy();
+        }
     }
     
 }
