@@ -12,7 +12,9 @@ int main() {
           helloWorld();
         }
 
-        if (game == "")
+        if (game == "random") {
+          randomNumGame();
+        }
     }
     
 }
