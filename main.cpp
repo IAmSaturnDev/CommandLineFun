@@ -4,7 +4,7 @@
 using namespace std;
 
 void games() {
-  cout << "Games: hello, random, yeetfuel, friend, exit" << endl;
+  cout << "Games: hello, random, yeetfuel, friend, exit, num, repeat" << endl;
 }
 
 
@@ -34,6 +34,14 @@ int main() {
         }
         if (game == "games") {
           games();
+        }
+
+        if (game == "num") {
+          favNum();
+        }
+
+        if (game == "repeat") {
+          repeat();
         }
     }
     

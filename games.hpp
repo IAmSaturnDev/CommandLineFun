@@ -49,3 +49,22 @@ void buddy() {
     }
   }
 }
+
+
+void favNum() {
+  int num;
+  cout << "What is your favorite number: "; cin >> num;
+
+  for (i = 0; i < num; i++) {
+    cout << i << endl;
+  }
+}
+
+
+void repeat() {
+  string repeatedWord;
+
+  cin >> repeatedWord;
+
+  cout << repeatedWord << endl;
+}
