@@ -43,6 +43,10 @@ int main() {
         if (game == "repeat") {
           repeat();
         }
+
+        if (game == "world") {
+          world();
+        }
     }
     
 }

@@ -88,7 +88,7 @@ void buddy() {
               cout << "SWEAT DREAMS\n";
             }
           }
-          }
+          
         }
       }
     }
@@ -112,4 +112,11 @@ void repeat() {
   cin >> repeatedWord;
 
   cout << repeatedWord << endl;
+}
+
+void world() {
+  string word;
+  cout << "Enter a word: ";
+  cin >> word;
+  cout << word << ", world!\n";
 }

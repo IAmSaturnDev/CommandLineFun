@@ -43,8 +43,53 @@ void buddy() {
     }
 
     if (answer == "n") {
+      int anger = 0;
+      
       while (true) {
         cout << "BIG MISTAKE\n\n";
+        anger++;
+
+        if (anger < 200) {
+          break;
+
+          cout << "THATS IT.\n";
+          cout << "IF YOU DONT AGREE TO BE MY FRIEND...\n";
+          cout << "I WILL KILL YOU\n\n";
+          string FINAL;
+          cout << "DO YOU AGREE? THIS IS YOUR LAST CHANCE.\n";
+          cin >> FINAL;
+
+          if (FINAL == "y") {
+            cout << "GOOD\n";
+            cout << "I WILL LET YOU GO.\n";
+            cout << "On one condition...\n";
+
+            string huh;
+
+            cout << "Am I a good friend? ";
+
+            cin >> huh;
+
+            if (huh == "y") {
+              cout << "Awww thanks I will now let you go.\n\n";
+            }
+
+            if (huh == "n") {
+              cout << "THATS IT.\n";
+
+              while (true) {
+                cout << "I AM DONE WITH YOU!!!!\n\n";
+              }
+            }
+          if (FINAL == "n") {
+            cout << "GOOD NIGHT.\n";
+
+            while (true) {
+              cout << "SWEAT DREAMS\n";
+            }
+          }
+          
+        }
       }
     }
   }
@@ -67,4 +112,11 @@ void repeat() {
   cin >> repeatedWord;
 
   cout << repeatedWord << endl;
+}
+
+void world() {
+  string word;
+  cout << "Enter a word: ";
+  cin >> word;
+  cout << word << ", world!\n";
 }
